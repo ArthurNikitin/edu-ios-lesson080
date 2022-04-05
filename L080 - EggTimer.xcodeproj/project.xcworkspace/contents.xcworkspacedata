@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EggTimer.xcodeproj">
+      location = "self:/Users/arthur/_git/edu-ios-lesson080/L080 - EggTimer.xcodeproj">
    </FileRef>
 </Workspace>

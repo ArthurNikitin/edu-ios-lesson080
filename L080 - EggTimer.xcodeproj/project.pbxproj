@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		AD5C106122D34E35001E14A5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD5C106522D36212001E14A5 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
-		ADF037EA22D332A800A69E9A /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF037EA22D332A800A69E9A /* L080 - EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L080 - EggTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF037ED22D332A800A69E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF037EF22D332A800A69E9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ADF037F122D332A800A69E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				AD5C106122D34E35001E14A5 /* README.md */,
-				ADF037EC22D332A800A69E9A /* EggTimer */,
+				ADF037EC22D332A800A69E9A /* L080 - EggTimer */,
 				ADF037EB22D332A800A69E9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +53,12 @@
 		ADF037EB22D332A800A69E9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADF037EA22D332A800A69E9A /* EggTimer.app */,
+				ADF037EA22D332A800A69E9A /* L080 - EggTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADF037EC22D332A800A69E9A /* EggTimer */ = {
+		ADF037EC22D332A800A69E9A /* L080 - EggTimer */ = {
 			isa = PBXGroup;
 			children = (
 				ADF037ED22D332A800A69E9A /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				ADF037F822D332AD00A69E9A /* LaunchScreen.storyboard */,
 				ADF037FB22D332AD00A69E9A /* Info.plist */,
 			);
-			path = EggTimer;
+			path = "L080 - EggTimer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADF037E922D332A800A69E9A /* EggTimer */ = {
+		ADF037E922D332A800A69E9A /* L080 - EggTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADF037FE22D332AD00A69E9A /* Build configuration list for PBXNativeTarget "EggTimer" */;
+			buildConfigurationList = ADF037FE22D332AD00A69E9A /* Build configuration list for PBXNativeTarget "L080 - EggTimer" */;
 			buildPhases = (
 				ADF037E622D332A800A69E9A /* Sources */,
 				ADF037E722D332A800A69E9A /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = EggTimer;
+			name = "L080 - EggTimer";
 			productName = EggTimer;
-			productReference = ADF037EA22D332A800A69E9A /* EggTimer.app */;
+			productReference = ADF037EA22D332A800A69E9A /* L080 - EggTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADF037E522D332A800A69E9A /* Build configuration list for PBXProject "EggTimer" */;
+			buildConfigurationList = ADF037E522D332A800A69E9A /* Build configuration list for PBXProject "L080 - EggTimer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADF037E922D332A800A69E9A /* EggTimer */,
+				ADF037E922D332A800A69E9A /* L080 - EggTimer */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EggTimer/Info.plist;
+				DEVELOPMENT_TEAM = V567Q89DQV;
+				INFOPLIST_FILE = "L080 - EggTimer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.EggTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurnikitin.L080-EggTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EggTimer/Info.plist;
+				DEVELOPMENT_TEAM = V567Q89DQV;
+				INFOPLIST_FILE = "L080 - EggTimer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.EggTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurnikitin.L080-EggTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADF037E522D332A800A69E9A /* Build configuration list for PBXProject "EggTimer" */ = {
+		ADF037E522D332A800A69E9A /* Build configuration list for PBXProject "L080 - EggTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADF037FC22D332AD00A69E9A /* Debug */,
@@ -334,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADF037FE22D332AD00A69E9A /* Build configuration list for PBXNativeTarget "EggTimer" */ = {
+		ADF037FE22D332AD00A69E9A /* Build configuration list for PBXNativeTarget "L080 - EggTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADF037FF22D332AD00A69E9A /* Debug */,
